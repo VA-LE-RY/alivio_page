@@ -43,6 +43,40 @@
         </div>
     </header>
 
+    <div class="mobile-nav" aria-label="mobile nav">
+        <label for="menu-toggler-id" aria-label="open-close mobile nav menu">
+            <svg class="mobile-nav__burger" aria-label="burger icon">
+                <use href="assets/sprites.svg#burger-icon"></use>
+            </svg>
+        </label>
+
+        <input type="checkbox" name="toggler" id="menu-toggler-id" class="mobile-nav__toggler">
+
+        <nav class="mobile-nav__menu" aria-label="mobile-nav menu">
+            <ul class="mobile-nav__list" aria-label="mobile-nav list">
+                <li class="mobile-nav__item">
+                    <a href="#about-id" class="mobile-nav__link">Why Alivio</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#success-id" class="mobile-nav__link">Solutions</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#product-id" class="mobile-nav__link">Community</a>
+                </li>
+                <li class="mobile-nav__item">
+                    <a href="#pricing-id" class="mobile-nav__link">Pricing</a>
+                </li>
+            </ul>
+
+            <label for="menu-toggler-id" class="mobile-nav__close" aria-label="close mobile nav menu">
+                <svg class="mobile-nav__cross" aria-label="cross icon">
+                    <use href="assets/sprites.svg#cross-icon"></use>
+                </svg>
+            </label>
+        </nav>
+
+    </div>
+
     <main>
         <section class="hero" aria-label="hero section" id="hero-id">
             <div class="container">
@@ -109,7 +143,7 @@
             <div class="container">
                 <div class="product__wrapper">
                     <div class="product__preview">
-                        <img src="assets/webp/Image 4.webp" alt="product preview" class="product__preview-img">
+                        <img src="assets/webp/Image4.webp" alt="product preview" class="product__preview-img">
                     </div>
                     <div class="product__content">
                         <h4 class="product__info">Our product</h4>
@@ -121,7 +155,7 @@
                     <figure class="person-card" aria-label="person card">
                         <h4 class="person-card__title">Customized For</h4>
                         <div class="person-card__preview">
-                            <img src="assets/webp/Image 4.webp" alt="preview-img" class="person-card__preview-img">
+                            <img src="assets/webp/Image4.webp" alt="preview-img" class="person-card__preview-img">
                         </div>
                         <h5 class="person-card__name">Mikayla</h5>
                         <blockquote class="person-card__desc" aria-label="description">
